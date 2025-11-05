@@ -1,0 +1,50 @@
+/* Use 62.5% hack for 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  font-size: 1.6rem; /* Base body text is 16px */
+}
+
+/* Header Styling */
+.main-header {
+  background-color: rgb(0, 110, 255); /* Your primary dark color */
+  padding: 1.5rem 3rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ffd700; /* Tertiary accent color */
+}
+
+.login-link {
+  margin-left: auto; /* Pushes Login link to the far right */
+  border: 1px solid white;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.5rem;
+}
+
+/* Main Content Area */
+.page-content {
+  padding: 3rem;
+}
